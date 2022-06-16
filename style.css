@@ -1,0 +1,36 @@
+body {
+    max-width: 85%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 7%;
+}
+
+
+.nav-bar {
+    background-color: orange;
+    border: none;
+    display: grid;
+    grid-template-columns: 30px auto 50px;
+    padding: 2px;
+    align-items: center;
+
+}
+
+#logo {
+    border: 1px solid white;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+
+}
+
+#title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.login {
+   text-align: right; 
+}
